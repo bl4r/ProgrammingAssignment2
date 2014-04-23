@@ -3,7 +3,7 @@
 ## cacheSolve, to find and display the matrix's inverse.
 
 ## makeCacheMatrix requires only a matrix, x.  
-## It's primary purpose is to store the information required for cacheSolve to run properly.
+## Its primary purpose is to store the information required for cacheSolve to run properly.
 ## Note that the function does not test to make sure that the matrix provided is, in fact, invertible.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -30,8 +30,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If the inverse has not been stored already, the function finds it using the solve
 ## function and then prints the solution.
 
-## cacheSolve requires makeCahceMatrix to already have been run.  This can be done by
-## running the first function seperately and saving the results in memory or by nesting the functions.
+## cacheSolve requires makeCacheMatrix to already have been run.  This can be done by
+## running the first function separately and saving the results in memory or by nesting the functions.
 
 ## Like makeCacheMatrix, cacheSolve does not test if the matrix is invertible before trying to solve it.
 
